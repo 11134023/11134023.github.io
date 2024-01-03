@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script&family=Playfair+Display:wght@700&family=Roboto&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    background-color: rgba(238, 226, 208, 1)
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+
+header{
+    background-color: rgb(185, 121, 121);
+    height:150px;
+    width: 100%;
+
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 120px;
+    top:20px;
+    line-height: 80px;
+    background-color:rgb(185, 121, 121) ;
+    
+    
+}
+header ul{
+    position: absolute;
+    right: 0;
+    top:5vw;
+    line-height: 80px;
+
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+    font-size: 20px;
+}
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+header a:hover{
+    background-color: rgb(113, 77, 77) ;
+    color: white;
+    text-decoration: underline;
+    border-radius: 15px;
+    border:15px solid rgb(113, 77, 77)  ;
+   }
+
+
+div.wrap{
+    width: 100%;
+    margin: 20px 20px auto;
+}
+
+div.main-card{
+    position: relative;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    padding-top: 7%;
+    font-size: 65px;
+    font-weight: 1000;
+    font-style: oblique;
+    width: 330px;
+    height: 832px;
+    margin-right: 5px;
+    background-image: url(taylor-swift-wallpaper-14.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+
+div.Taylor-Swift{
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 600px;
+    left:400px;
+    background-position: top;  
+}
+
+
+div.taylor-image1{
+    width: 200px;
+    height: 200px;
+    background-image: url(Taylor_Swift_-_Red.png);
+    background-size: cover;
+    padding-top: 200px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+div.taylor-intro1{
+    height: 350px;
+    font-size:17px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 150%;
+    padding:16px 20px;
+    background-color: rgb(30, 27, 27);
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    bottom: 100px;
+}
+div.taylor-image2{
+    width: 200px;
+    height: 200px;
+    background-image: url(7-64ecb1c909b78.png);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 100px;
+   
+}
+
+
+div.taylor-intro2{
+    height: 350px;
+    font-size:17px;
+    line-height: 150%;
+    padding:16px 20px;
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    top: 100px;
+}
+div.taylor-image3{
+    width: 200px;
+    height: 200px;
+    background-image: url(taylor-swift-reputation.jpg.avif);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    bottom: 100px;
+}
+div.taylor-intro3{
+    height: 350px;
+    font-size:17px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 150%;
+    padding:16px 20px;
+    background-color: rgb(30, 27, 27);
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    bottom: 100px;
+}
+
+
+div.taylor-image4{
+    width: 200px;
+    height: 200px;
+    background-image: url(deaiaxo-124baa59-fff9-4ef3-b872-a74d1672b731.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 100px;
+   
+}
+
+div.taylor-intro4{
+    height: 350px;
+    font-size:17px;
+    line-height: 150%;
+    padding:16px 20px;
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    top: 100px;
+    }
+    section{
+        gap:40px;
+        display: flex;
+    }
+
+    
+    footer{
+        font-size:20px;
+        line-height: 150%;
+        padding:16px 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: solid;
+        padding-top: 2px;
+    }
